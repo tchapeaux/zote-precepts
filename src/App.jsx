@@ -36,7 +36,9 @@ function App() {
         <button onClick={setRandom}>🎲</button>
       </nav>
       <main className="one-precept">
-        <p className="prcpt-nbr">{precept.nbr}</p>
+        <p className="prcpt-nbr" style={{ marginBottom: 0 }}>
+          {precept.nbr}
+        </p>
         <p className="prcpt-title">{precept.title}</p>
         <p className="prcpt-text">{precept.text}</p>
       </main>
