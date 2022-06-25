@@ -16,7 +16,7 @@ function App() {
   return (
     <div className="App">
       <header>
-        <h1>PRECEPTS OF ZOTE</h1>
+        <h1>The Precepts of Zote</h1>
         <blockquote>
           To what do I owe my long string of trimphs and victories, you ask?
           [T]he key is in my personal philosophy, the 'Fifty-Seven Precepts of
@@ -42,6 +42,7 @@ function App() {
         <p className="prcpt-title">{precept.title}</p>
         <p className="prcpt-text">{precept.text}</p>
       </main>
+      <footer>All texts are the property of Team Cherry</footer>
     </div>
   );
 }
