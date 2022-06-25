@@ -1,0 +1,344 @@
+[
+  {
+    "idx": 0,
+    "nbr": "Precept One",
+    "title": "Always Win Your Battles",
+    "text": "Losing a battle earns you nothing and teaches you nothing. Win your battles, or don't engage in them at all!"
+  },
+  {
+    "idx": 1,
+    "nbr": "Precept Two",
+    "title": "Never Let Them Laugh at You",
+    "text": "Fools laugh at everything, even at their superiors. But beware, laughter isn't harmless! Laughter spreads like a disease, and soon everyone is laughing at you. You need to strike at the source of this perverse merriment quickly to stop it from spreading."
+  },
+  {
+    "idx": 2,
+    "nbr": "Precept Three",
+    "title": "Always Be Rested",
+    "text": "Fighting and adventuring take their toll on your body. When you rest, your body strengthens and repairs itself. The longer you rest, the stronger you become."
+  },
+  {
+    "idx": 3,
+    "nbr": "Precept Four",
+    "title": "Forget Your Past",
+    "text": "The past is painful, and thinking about your past can only bring you misery. Think about something else instead, such as the future, or some food."
+  },
+  {
+    "idx": 4,
+    "nbr": "Precept Five",
+    "title": "Strength Beats Strength",
+    "text": "Is your opponent strong? No matter! Simply overcome their strength with even more strength, and they'll soon be defeated."
+  },
+  {
+    "idx": 5,
+    "nbr": "Precept Six",
+    "title": "Choose Your Own Fate",
+    "text": "Our elders teach that our fate is chosen for us before we are even born. I disagree."
+  },
+  {
+    "idx": 6,
+    "nbr": "Precept Seven",
+    "title": "Mourn Not the Dead",
+    "text": "When we die, do things get better for us or worse? There's no way to tell, so we shouldn't bother mourning. Or celebrating for that matter."
+  },
+  {
+    "idx": 7,
+    "nbr": "Precept Eight",
+    "title": "Travel Alone",
+    "text": "You can rely on nobody, and nobody will always be loyal. Therefore, nobody should be your constant companion."
+  },
+  {
+    "idx": 8,
+    "nbr": "Precept Nine",
+    "title": "Keep Your Home Tidy",
+    "text": "Your home is where you keep your most prized possession - yourself. Therefore, you should make an effort to keep it nice and clean."
+  },
+  {
+    "idx": 9,
+    "nbr": "Precept Ten",
+    "title": "Keep Your Weapon Sharp",
+    "text": "I make sure that my weapon, 'Life Ender', is kept well-sharpened at all times. This makes it much easier to cut things."
+  },
+  {
+    "idx": 10,
+    "nbr": "Precept Eleven",
+    "title": "Mothers Will Always Betray You",
+    "text": "This Precept explains itself."
+  },
+  {
+    "idx": 11,
+    "nbr": "Precept Twelve",
+    "title": "Keep Your Cloak Dry",
+    "text": "If your cloak gets wet, dry it as soon as you can. Wearing wet cloaks is unpleasant, and can lead to illness."
+  },
+  {
+    "idx": 12,
+    "nbr": "Precept Thirteen",
+    "title": "Never Be Afraid",
+    "text": "Fear can only hold you back. Facing your fears can be a tremendous effort. Therefore, you should just not be afraid in the first place."
+  },
+  {
+    "idx": 13,
+    "nbr": "Precept Fourteen",
+    "title": "Respect Your Superiors",
+    "text": "If someone is your superior in strength or intellect or both, you need to show them your respect. Don't ignore them or laugh at them."
+  },
+  {
+    "idx": 14,
+    "nbr": "Precept Fifteen",
+    "title": "One Foe, One Blow",
+    "text": "You should only use a single blow to defeat an enemy. Any more is a waste. Also, by counting your blows as you fight, you'll know how many foes you've defeated."
+  },
+  {
+    "idx": 15,
+    "nbr": "Precept Sixteen",
+    "title": "Don't Hesitate",
+    "text": "Once you've made a decision, carry it out and don't look back. You'll achieve much more this way."
+  },
+  {
+    "idx": 16,
+    "nbr": "Precept Seventeen",
+    "title": "Believe In Your Strength",
+    "text": "Others may doubt you, but there's someone you can always trust. Yourself. Make sure to believe in your own strength, and you will never falter."
+  },
+  {
+    "idx": 17,
+    "nbr": "Precept Eighteen",
+    "title": "Seek Truth in the Darkness",
+    "text": "This Precept also explains itself."
+  },
+  {
+    "idx": 18,
+    "nbr": "Precept Nineteen",
+    "title": "If You Try, Succeed",
+    "text": "If you're going to attempt something, make sure you achieve it. If you do not succeed, then you have actually failed! Avoid this at all costs."
+  },
+  {
+    "idx": 19,
+    "nbr": "Precept Twenty",
+    "title": "Speak Only the Truth",
+    "text": "When speaking to someone, it is courteous and also efficient to speak truthfully. Beware though that speaking truthfully may make you enemies. This is something you'll have to bear."
+  },
+  {
+    "idx": 20,
+    "nbr": "Precept Twenty-One",
+    "title": "Be Aware of Your Surroundings",
+    "text": "Don't just walk along staring at the ground! You need to look up every so often, to make sure nothing takes you by surprise."
+  },
+  {
+    "idx": 21,
+    "nbr": "Precept Twenty-Two",
+    "title": "Abandon the Nest",
+    "text": "As soon as I could, I left my birthplace and made my way out into the world. Do not linger in the nest. There is nothing for you there."
+  },
+  {
+    "idx": 22,
+    "nbr": "Precept Twenty-Three",
+    "title": "Identify the Foes Weak Point",
+    "text": "Every foe you encounter has a weak point, such as a crack in their shell or being asleep. You must constantly be alert and scrutinising your enemy to detect their weakness!"
+  },
+  {
+    "idx": 23,
+    "nbr": "Precept Twenty-Four",
+    "title": "Strike the Foes Weak Point",
+    "text": "Once you have identified your foe's weak point as per the previous Precept, strike it. This will instantly destroy them."
+  },
+  {
+    "idx": 24,
+    "nbr": "Precept Twenty-Five",
+    "title": "Protect Your Own Weak Point",
+    "text": "Be aware that your foe will try to identify your weak point, so you must protect it. The best protection? Never having a weak point in the first place."
+  },
+  {
+    "idx": 25,
+    "nbr": "Precept Twenty-Six",
+    "title": "Don't Trust Your Reflection",
+    "text": "When peering at certain shining surfaces, you may see a copy of your own face. The face will mimic your movements and seems similar to your own, but I don't think it can be trusted."
+  },
+  {
+    "idx": 26,
+    "nbr": "Precept Twenty-Seven",
+    "title": "Eat As Much As You Can",
+    "text": "When having a meal, eat as much as you possibly can. This gives you extra energy, and means you can eat less frequently."
+  },
+  {
+    "idx": 27,
+    "nbr": "Precept Twenty-Eight",
+    "title": "Don't Peer Into the Darkness",
+    "text": "If you peer into the darkness and can't see anything for too long, your mind will start to linger over old memories. Memories are to be avoided, as per Precept Four."
+  },
+  {
+    "idx": 28,
+    "nbr": "Precept Twenty-Nine",
+    "title": "Develop Your Sense of Direction",
+    "text": "It's easy to get lost when travelling through winding, twisting caverns. Having a good sense of direction is like having a magical map inside of your head. Very useful."
+  },
+  {
+    "idx": 29,
+    "nbr": "Precept Thirty",
+    "title": "Never Accept a Promise",
+    "text": "Spurn the promises of others, as they are always broken. Promises of love or betrothal are to be avoided especially."
+  },
+  {
+    "idx": 30,
+    "nbr": "Precept Thirty-One",
+    "title": "Disease Lives Inside of Dirt",
+    "text": "You'll get sick if you spend too much time in filthy places. If you are staying in someone else's home, demand the highest level of cleanliness from your host."
+  },
+  {
+    "idx": 31,
+    "nbr": "Precept Thirty-Two",
+    "title": "Names Have Power",
+    "text": "Names have power, and so to name something is to grant it power. I myself named my nail 'Life Ender'. Do not steal the name I came up with! Invent your own!"
+  },
+  {
+    "idx": 32,
+    "nbr": "Precept Thirty-Three",
+    "title": "Show the Enemy No Respect",
+    "text": "Being gallant to your enemies is no virtue! If someone opposes you, they don't deserve respect or kindness or mercy."
+  },
+  {
+    "idx": 33,
+    "nbr": "Precept Thirty-Four",
+    "title": "Don't Eat Immediately Before Sleeping",
+    "text": "This can cause restlessness and indigestion. It's just common sense."
+  },
+  {
+    "idx": 34,
+    "nbr": "Precept Thirty-Five",
+    "title": "Up is Up, Down is Down",
+    "text": "If you fall over in the darkness, it can be easy to lose your bearing and forget which way is up. Keep this Precept in mind!"
+  },
+  {
+    "idx": 35,
+    "nbr": "Precept Thirty-Six",
+    "title": "Eggshells are brittle",
+    "text": "Once again, this Precept explains itself."
+  },
+  {
+    "idx": 36,
+    "nbr": "Precept Thirty-Seven",
+    "title": "Borrow, But Do Not Lend",
+    "text": "If you lend and are repayed, you gain nothing. If you borrow but do not repay, you gain everything."
+  },
+  {
+    "idx": 37,
+    "nbr": "Precept Thirty-Eight",
+    "title": "Beware the Mysterious Force",
+    "text": "A mysterious force bears down on us from above, pushing us downwards. If you spend too long in the air, the force will crush you against the ground and destroy you. Beware!"
+  },
+  {
+    "idx": 38,
+    "nbr": "Precept Thirty-Nine",
+    "title": "Eat Quickly and Drink Slowly",
+    "text": "Your body is a delicate thing and you must fuel it with great deliberation. Food must go in as fast as possible, but fluids at a slower rate."
+  },
+  {
+    "idx": 39,
+    "nbr": "Precept Forty",
+    "title": "Obey No Law But Your Own",
+    "text": "Laws written by others may inconvenience you or be a burden. Let your own desires be the only law."
+  },
+  {
+    "idx": 40,
+    "nbr": "Precept Forty-One",
+    "title": "Learn to Detect Lies",
+    "text": "When others speak, they usually lie. Scrutinise and question them relentlessly until they reveal their deceit."
+  },
+  {
+    "idx": 41,
+    "nbr": "Precept Forty-Two",
+    "title": "Spend Geo When You Have It",
+    "text": "Some will cling onto their Geo, even taking it into the dirt with them when they die. It is better to spend it when you can, so you can enjoy various things in life."
+  },
+  {
+    "idx": 42,
+    "nbr": "Precept Forty-Three",
+    "title": "Never Forgive",
+    "text": "If someone asks forgiveness of you, for instance a brother of yours, always deny it. That brother, or whoever it is, doesn't deserve such a thing."
+  },
+  {
+    "idx": 43,
+    "nbr": "Precept Forty-Four",
+    "title": "You Can Not Breathe Water",
+    "text": "Water is refreshing, but if you try to breathe it you are in for a nasty shock."
+  },
+  {
+    "idx": 44,
+    "nbr": "Precept Forty-Five",
+    "title": "One Thing Is Not Another",
+    "text": "This one should be obvious, but I've had others try to argue that one thing, which is clearly what it is and not something else, is actually some other thing, which it isn't. Stay on your guard!"
+  },
+  {
+    "idx": 45,
+    "nbr": "Precept Forty-Six",
+    "title": "The World is Smaller Than You Think",
+    "text": "When young, you tend to think that the world is vast, huge, gigantic. It's only natural. Unfortunately, it's actually quite a lot smaller than that. I can say this, now having travelled everywhere in the land."
+  },
+  {
+    "idx": 46,
+    "nbr": "Precept Forty-Seven",
+    "title": "Make Your Own Weapon",
+    "text": "Only you know exactly what is needed in your weapon. I myself fashioned 'Life Ender' from shellwood at a young age. It has never failed me. Nor I it."
+  },
+  {
+    "idx": 47,
+    "nbr": "Precept Forty-Eight",
+    "title": "Be Careful With Fire",
+    "text": "Fire is a type of hot spirit that dances about recklessly. It can warm you and provide light, but it will also singe your shell if it gets too close."
+  },
+  {
+    "idx": 48,
+    "nbr": "Precept Forty-Nine",
+    "title": "Statues are Meaningless",
+    "text": "Do not honour them! No one has ever made a statue of you or I, so why should we pay them any attention?"
+  },
+  {
+    "idx": 49,
+    "nbr": "Precept Fifty",
+    "title": "Don't Linger on Mysteries",
+    "text": "Some things in this world appear to us as puzzles. Or enigmas. If the meaning behind something is not immediately evident though, don't waste any time thinking about it. Just move on."
+  },
+  {
+    "idx": 50,
+    "nbr": "Precept Fifty-One",
+    "title": "Nothing is Harmless",
+    "text": "Given the chance, everything in this world will hurt you. Friends, foes, monsters, uneven paths. Be suspicious of them all."
+  },
+  {
+    "idx": 51,
+    "nbr": "Precept Fifty-Two",
+    "title": "Beware the Jealousy of Fathers",
+    "text": "Fathers believe that because they created us we must serve them and never exceed their capabilities. If you wish to forge your own path, you must vanquish your father. Or simply abandon him."
+  },
+  {
+    "idx": 52,
+    "nbr": "Precept Fifty-Three",
+    "title": "Do Not Steal the Desires of Others",
+    "text": "Every creature keeps their desires locked up inside of themselves. If you catch a glimpse of another's desires, resist the urge to claim them as your own. It will not lead you to happiness."
+  },
+  {
+    "idx": 53,
+    "nbr": "Precept Fifty-Four",
+    "title": "If You Lock Something Away, Keep the Key",
+    "text": "Nothing should be locked away for ever, so hold onto your keys. You will eventually return and unlock everything you hid away."
+  },
+  {
+    "idx": 54,
+    "nbr": "Precept Fifty-Five",
+    "title": "Bow to No-one",
+    "text": "There are those in this world who would impose their will on others. They claim ownership over your food, your land, your body, and even your thoughts! They have done nothing to earn these things. Never bow to them, and make sure to disobey their commands."
+  },
+  {
+    "idx": 55,
+    "nbr": "Precept Fifty-Six",
+    "title": "Do Not Dream",
+    "text": "Dreams are dangerous things. Strange ideas, not your own, can worm their way into your mind. But if you resist those ideas, sickness will wrack your body! Best not to dream at all, like me."
+  },
+  {
+    "idx": 56,
+    "nbr": "Precept Fifty-Seven",
+    "title": "Obey All Precepts",
+    "text": "Most importantly, you must commit all of these Precepts to memory and obey them all unfailingly. Including this one! Hmm. Have you truly listened to everything I've said? Let's start again and repeat the 'Fifty-Seven Precepts of Zote'"
+  }
+]
