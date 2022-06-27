@@ -18,7 +18,7 @@ function App() {
       <header>
         <h1>The Precepts of Zote</h1>
         <blockquote>
-          To what do I owe my long string of trimphs and victories, you ask?
+          To what do I owe my long string of triumphs and victories, you ask?
           [T]he key is in my personal philosophy, the 'Fifty-Seven Precepts of
           Zote'
         </blockquote>
