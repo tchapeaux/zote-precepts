@@ -11,7 +11,7 @@ export default function App() {
     <div className="App">
       <header>
         <blockquote>
-          To what do I owe my long string of trimphs and victories, you ask?
+          To what do I owe my long string of triumphs and victories, you ask?
           <br />
           [T]he key is in my personal philosophy, the...
           <h1>“Fifty-Seven Precepts of Zote”</h1>
