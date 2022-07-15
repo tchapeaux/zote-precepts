@@ -21,15 +21,15 @@ export default function OnePrecept({ selected, setSelected }) {
                 className="prev-btn"
                 onClick={() => setSelected(selected - 1)}
               >
-                Prev
+                ←
               </button>
             ) : null}
-            {selected < PRECEPTS.length ? (
+            {selected < PRECEPTS.length - 1 ? (
               <button
                 className="next-btn"
                 onClick={() => setSelected(selected + 1)}
               >
-                Next
+                →
               </button>
             ) : null}
           </div>

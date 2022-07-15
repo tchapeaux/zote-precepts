@@ -60,8 +60,10 @@
 
 .prev-btn {
   grid-column: 1;
+  text-decoration: none;
 }
 
 .next-btn {
   grid-column: 2;
+  text-decoration: none;
 }
