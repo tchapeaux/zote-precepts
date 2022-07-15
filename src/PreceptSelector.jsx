@@ -36,7 +36,11 @@ export default function PreceptSelector({ selected, setSelected }) {
         <button onClick={setRandom}>🎲</button>
       </nav>
       <button className={`toggle-open-btn`} onClick={() => setIsOpen(!isOpen)}>
-        {isOpen ? "❎" : "⏭️"}
+        {isOpen ? (
+          <i class="lni lni-cross-circle" />
+        ) : (
+          <i class="lni lni-menu" />
+        )}
       </button>
     </>
   );

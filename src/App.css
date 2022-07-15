@@ -39,6 +39,7 @@ button {
   border: none;
 
   color: navajowhite;
+  transition: color .3s ease;
 
   font-size: 1.3em;
   text-decoration: underline;
