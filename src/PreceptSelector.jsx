@@ -23,21 +23,23 @@ export default function PreceptSelector({ selected, setSelected }) {
   return (
     <>
       <nav className={classNames(`choose-precept`, { opened: !!isOpen })}>
-        {PRECEPTS.map((p) => (
-          <button
-            className={p.idx === selected ? "selected" : undefined}
-            key={p.idx}
-            onClick={onSelectPrecept.bind(
-              null,
-              p.idx === selected ? null : p.idx,
-            )}
-          >
-            {p.idx + 1}
+        <div className="grid-btn">
+          {PRECEPTS.map((p) => (
+            <button
+              className={p.idx === selected ? "selected" : undefined}
+              key={p.idx}
+              onClick={onSelectPrecept.bind(
+                null,
+                p.idx === selected ? null : p.idx,
+              )}
+            >
+              {p.idx + 1}
+            </button>
+          ))}
+          <button onClick={setRandom}>
+            <Dice5 width={27} height={27} />
           </button>
-        ))}
-        <button onClick={setRandom}>
-          <Dice5 width={27} height={27} />
-        </button>
+        </div>
       </nav>
       <button className={`toggle-open-btn`} onClick={() => setIsOpen(!isOpen)}>
         {isOpen ? (

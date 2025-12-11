@@ -3,9 +3,12 @@
     flex-direction: column;
     align-items: center;
 
-    min-height: 90vh;
+    min-height: 100dvh;
 
-    padding: 2rem;
+    padding: 1rem;
+    @media (min-width: 600px) {
+        padding: 2rem;
+    }
 }
 
 header {
@@ -34,7 +37,7 @@ header blockquote {
     font-style: italic;
     font-size: 1.3rem;
     margin: 0;
-    margin-bottom: 32px;
+    margin: 32px 0;
     text-wrap: balance;
 
     @media (min-width: 400px) {
@@ -42,40 +45,17 @@ header blockquote {
     }
 }
 
-.fade-1 {
-    opacity: 1;
-    transition: opacity 1s ease;
-    transition-delay: 1s;
-
-    @starting-style {
-        opacity: 0;
-    }
-}
-
-.fade-2 {
-    opacity: 1;
-    transition: opacity 1s ease;
-    transition-delay: 2.5s;
-
-    @starting-style {
-        opacity: 0;
-    }
-}
-
-.fade-3 {
-    opacity: 1;
-    transition: opacity 3s ease;
-    transition-delay: 4s;
-
-    @starting-style {
-        opacity: 0;
-    }
+main {
+    flex-grow: 1;
 }
 
 footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+
     font-size: 1rem;
-    margin-top: auto;
-    padding-top: 12px;
 }
 
 button {

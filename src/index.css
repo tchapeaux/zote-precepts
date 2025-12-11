@@ -3,18 +3,29 @@
         Cormorant, -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto",
         "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans",
         "Helvetica Neue", sans-serif;
+
+    --text-color: #d5d5f0;
+}
+
+html,
+body {
+    margin: 0;
+    padding: 0;
+}
+
+* {
+    box-sizing: border-box;
 }
 
 body {
-    margin: 0;
     font-family: var(--font-family);
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
 
     font-size: 20px;
 
-    background-color: #222225;
-    color: #d5d5f0;
+    background: linear-gradient(135deg, #222225, #444455);
+    color: var(--text-color);
 }
 
 button {
@@ -24,5 +35,35 @@ button {
     &:hover,
     &:focus-visible {
         text-decoration: underline;
+    }
+}
+
+.fade-1 {
+    opacity: 1;
+    transition: opacity 1s ease;
+    transition-delay: 1s;
+
+    @starting-style {
+        opacity: 0;
+    }
+}
+
+.fade-2 {
+    opacity: 1;
+    transition: opacity 1s ease;
+    transition-delay: 2.5s;
+
+    @starting-style {
+        opacity: 0;
+    }
+}
+
+.fade-3 {
+    opacity: 1;
+    transition: opacity 3s ease;
+    transition-delay: 4s;
+
+    @starting-style {
+        opacity: 0;
     }
 }
