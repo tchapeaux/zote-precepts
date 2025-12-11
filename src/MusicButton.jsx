@@ -24,9 +24,9 @@ export default function MusicButton() {
   return (
     <button className="music-toggle" onClick={toggle}>
       {isPlaying ? (
-        <VolumeXmark width={40} height={40} />
-      ) : (
         <Volume width={40} height={40} />
+      ) : (
+        <VolumeXmark width={40} height={40} />
       )}
     </button>
   );

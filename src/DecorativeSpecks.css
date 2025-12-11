@@ -1,0 +1,70 @@
+/* Freely inspired by https://codepen.io/matthewwilliams/pen/Qbzmzr */
+
+.decorative-wrapper {
+    position: fixed;
+    z-index: -1;
+    top: 0;
+    left: 0;
+    height: 100dvh;
+    width: 100dvh;
+}
+
+.layer {
+    position: relative;
+}
+
+.layer-1 {
+    filter: blur(2px);
+    opacity: 0.7;
+}
+
+.layer-2 {
+    filter: blur(4px);
+    opacity: 0.9;
+}
+
+.speck {
+    position: absolute;
+    top: var(--pos-y);
+    left: var(--pos-x);
+    border-radius: 50%;
+
+    width: var(--size);
+    height: var(--size);
+    background-color: var(--text-color);
+
+    &.gold {
+        background-color: palegoldenrod;
+    }
+
+    transition: translate var(--speed) linear;
+    translate: var(--trans-x) var(--trans-y);
+
+    @starting-style {
+        translate: 0 0;
+    }
+
+    animation: twinkle var(--speed) forwards;
+}
+
+@keyframes twinkle {
+    0% {
+        opacity: 0;
+    }
+
+    20% {
+        opacity: 0;
+    }
+
+    50% {
+        opacity: 1;
+    }
+
+    70% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 0;
+    }
+}

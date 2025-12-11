@@ -1,6 +1,7 @@
 import "./App.css";
 
 import { useState } from "react";
+import DecorativeSpecks from "./DecorativeSpecks";
 import PreceptSelector from "./PreceptSelector";
 import OnePrecept from "./OnePrecept";
 import MusicButton from "./MusicButton";
@@ -11,9 +12,11 @@ export default function App() {
   return (
     <>
       <div className="App">
+        <DecorativeSpecks />
+
         <header>
           {selected === null && (
-            <blockquote>
+            <blockquote class="stone-tablet-card">
               <span>
                 To what do I owe my long string of triumphs and victories, you
                 ask?

@@ -10,7 +10,7 @@ export default function OnePrecept({ selected, setSelected }) {
   return (
     <div className="one-precept">
       {precept ? (
-        <>
+        <div class="stone-tablet-card">
           <p className="prcpt-nbr" style={{ marginBottom: 0 }}>
             - {precept.nbr} -
           </p>
@@ -35,9 +35,12 @@ export default function OnePrecept({ selected, setSelected }) {
               </button>
             ) : null}
           </div>
-        </>
+        </div>
       ) : (
-        <button className="fade-3 first-prcpt" onClick={() => setSelected(0)}>
+        <button
+          className="fade-3 first-prcpt stone-tablet-card"
+          onClick={() => setSelected(0)}
+        >
           First Precept
         </button>
       )}
