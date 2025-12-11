@@ -7,7 +7,9 @@ import "./MusicButton.css";
 
 export default function MusicButton() {
   const [isPlaying, setIsPlaying] = useState(false);
-  const [play, { stop }] = useSound("/bgm.mp3");
+  const [play, { stop }] = useSound("/bgm.mp3", {
+    loop: true,
+  });
 
   function toggle() {
     if (!isPlaying) {
