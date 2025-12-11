@@ -11,8 +11,13 @@ export default defineConfig({
       custom: {
         families: [
           {
-            name: "Perpetua",
-            src: "./assets/Perpetua.otf",
+            name: "Cormorant",
+            src: "./assets/Cormorant-VariableFont_wght.ttf",
+          },
+          {
+            name: "Cormorant",
+            src: "./assets/Cormorant-Italic-VariableFont_wght.ttf",
+            style: "italic",
           },
         ],
         display: "auto",
