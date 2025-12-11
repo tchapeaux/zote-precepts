@@ -21,4 +21,6 @@ npm run dev
 
 Background music is an edited version of https://pixabay.com/fr/music/m%c3%a9ditation-spirituel-piano-and-strings-meditation-168763/
 
+Menu SFX is an edited version of https://pixabay.com/fr/sound-effects/menu-open-433000/
+
 Font (Cormorant) used with the Open Font License

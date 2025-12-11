@@ -10,7 +10,7 @@ export default function OnePrecept({ selected, setSelected }) {
   return (
     <div className="one-precept">
       {precept ? (
-        <div class="stone-tablet-card">
+        <div className="stone-tablet-card">
           <p className="prcpt-nbr" style={{ marginBottom: 0 }}>
             - {precept.nbr} -
           </p>

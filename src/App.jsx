@@ -1,13 +1,29 @@
 import "./App.css";
 
-import { useState } from "react";
+import { useState, useEffect, useRef } from "react";
 import DecorativeSpecks from "./DecorativeSpecks";
 import PreceptSelector from "./PreceptSelector";
 import OnePrecept from "./OnePrecept";
 import MusicButton from "./MusicButton";
+import AudioManager from "./AudioManager";
 
 export default function App() {
   const [selected, setSelected] = useState(null);
+
+  // Initialize AudioManager on mount
+  useEffect(() => {
+    AudioManager.init();
+    return () => {
+      AudioManager.cleanup();
+    };
+  }, []);
+
+  // Play menu sound when selected precept changes (skip first mount)
+  useEffect(() => {
+    if (selected !== null) {
+      AudioManager.playMenuSound();
+    }
+  }, [selected]);
 
   return (
     <>
@@ -16,7 +32,7 @@ export default function App() {
 
         <header>
           {selected === null && (
-            <blockquote class="stone-tablet-card">
+            <blockquote className="stone-tablet-card">
               <span>
                 To what do I owe my long string of triumphs and victories, you
                 ask?
