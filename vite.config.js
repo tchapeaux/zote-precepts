@@ -1,19 +1,18 @@
 import { defineConfig } from "vite";
 import react from "@vitejs/plugin-react";
-import ViteFonts from "vite-plugin-fonts";
+import Unfonts from "unplugin-fonts/vite";
 
 // https://vitejs.dev/config/
 export default defineConfig({
   plugins: [
     react(),
-    ViteFonts({
+    Unfonts({
       // Custom fonts.
       custom: {
         families: [
           {
             name: "Perpetua",
-            local: "Perpetua",
-            src: "../assets/Perpetua.otf",
+            src: "./assets/Perpetua.otf",
           },
         ],
         display: "auto",
