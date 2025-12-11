@@ -1,71 +1,82 @@
 nav {
-  position: absolute;
-  left: 0;
-  top: 0;
+    position: absolute;
+    left: 0;
+    top: 0;
 
-  height: 100%;
-  overflow-y: scroll;
-  width: 100%;
-  max-width: 600px;
+    height: 100%;
+    overflow-y: scroll;
+    width: 100%;
+    max-width: 600px;
 
-  background-color: rgba(100, 100, 100, 0.8);
-  transform: translateX(-100%);
-  transition: transform ease 0.5s;
+    background-color: rgba(20, 20, 20, 0.8);
+    transform: translateX(-100%);
+    transition: transform ease 0.5s;
 }
 
 nav.opened {
-  transform: translateX(0%);
+    transform: translateX(0%);
 }
 
 .choose-precept {
-  display: flex;
-  align-content: center;
-  flex-wrap: wrap;
-  padding: 8px;
+    display: flex;
+    align-content: center;
+    flex-wrap: wrap;
+    padding: 8px;
 }
 
 .choose-precept button {
-  text-decoration: initial;
+    text-decoration: initial;
 
-  font-size: 1.3em;
-  width: 46px;
-  height: 46px;
-  margin: 10px 3px;
-  padding: 5px 3px;
+    font-size: 1.6rem;
+    font-weight: 900;
+    width: 46px;
+    height: 46px;
+    margin: 10px 3px;
+    padding: 5px 3px;
+    padding-bottom: 2px;
 
-  background-color: transparent;
-  color: white;
+    background-color: transparent;
+    color: white;
 
-  cursor: pointer;
+    cursor: pointer;
 
-  display: flex;
-  align-items: center;
-  justify-content: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 
-  border: 4px solid #ccc;
-  border-radius: 50%;
+    border: 4px solid #ccc;
+    border-radius: 50%;
+
+    box-shadow: 0 0 0 transparent;
+    text-shadow: 0 0 0 transparent;
+
+    transition:
+        box-shadow 0.4s ease,
+        text-shadow 0.4s ease;
 }
 
 .choose-precept button:hover {
-  text-shadow: 0px 0px 5px navajowhite;
+    text-shadow: 0px 0px 5px powderblue;
+    box-shadow: 0 0 4px powderblue;
+    text-decoration: none;
 }
 
 .selected {
-  color: navajowhite !important;
-  border: 4px solid navajowhite !important;
+    color: powderblue !important;
+    border: 4px solid powderblue !important;
 }
 
 button.toggle-open-btn {
-  text-decoration: initial;
+    text-decoration: initial;
 
-  position: absolute;
-  top: 4px;
-  left: 4px;
+    position: absolute;
+    top: 16px;
+    left: 16px;
 
-  font-size: 2em;
+    font-size: 2rem;
 
-  background: none;
-  border: none;
+    background: none;
+    border: none;
 
-  cursor: pointer;
+    cursor: pointer;
 }

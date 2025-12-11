@@ -1,5 +1,7 @@
 import PRECEPTS from "../assets/precepts.json";
 
+import { ArrowLeft, ArrowRight } from "@gravity-ui/icons";
+
 import "./OnePrecept.css";
 
 export default function OnePrecept({ selected, setSelected }) {
@@ -17,19 +19,27 @@ export default function OnePrecept({ selected, setSelected }) {
 
           <div className="prev-next-section">
             {selected > 0 ? (
-              <button className="prev-btn" onClick={() => setSelected(selected - 1)}>
-                <i class="lni lni-arrow-left" />
+              <button
+                className="prev-btn"
+                onClick={() => setSelected(selected - 1)}
+              >
+                <ArrowLeft height={40} width={40} />
               </button>
             ) : null}
             {selected < PRECEPTS.length - 1 ? (
-              <button className="next-btn" onClick={() => setSelected(selected + 1)}>
-                <i class="lni lni-arrow-right" />
+              <button
+                className="next-btn"
+                onClick={() => setSelected(selected + 1)}
+              >
+                <ArrowRight height={40} width={40} />
               </button>
             ) : null}
           </div>
         </>
       ) : (
-        <button onClick={() => setSelected(0)}>First Precept</button>
+        <button className="first-prcpt" onClick={() => setSelected(0)}>
+          First Precept
+        </button>
       )}
     </main>
   );

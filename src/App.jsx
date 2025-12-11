@@ -10,15 +10,28 @@ export default function App() {
   return (
     <div className="App">
       <header>
-        <blockquote>
-          To what do I owe my long string of triumphs and victories, you ask?
-          <br />
-          [T]he key is in my personal philosophy, the...
-          <h1>“Fifty-Seven Precepts of Zote”</h1>
-        </blockquote>
+        {selected === null && (
+          <blockquote>
+            <span>
+              To what do I owe my long string of triumphs and victories, you
+              ask?
+            </span>
+            <br />
+            <span className="fade-1">
+              The key is in my personal philosophy, the
+            </span>
+            <h1 className="fade-2">Fifty-Seven Precepts of Zote</h1>
+          </blockquote>
+        )}
       </header>
 
-      <OnePrecept key={selected} selected={selected} setSelected={setSelected} />
+      <div className="fade-3">
+        <OnePrecept
+          key={selected}
+          selected={selected}
+          setSelected={setSelected}
+        />
+      </div>
 
       <PreceptSelector selected={selected} setSelected={setSelected} />
 

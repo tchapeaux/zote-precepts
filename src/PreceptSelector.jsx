@@ -1,6 +1,8 @@
 import { useState } from "react";
 import classNames from "classnames";
 
+import { Bars, Xmark, Dice5 } from "@gravity-ui/icons";
+
 import PRECEPTS from "../assets/precepts.json";
 
 import "./PreceptSelector.css";
@@ -25,15 +27,24 @@ export default function PreceptSelector({ selected, setSelected }) {
           <button
             className={p.idx === selected ? "selected" : undefined}
             key={p.idx}
-            onClick={onSelectPrecept.bind(null, p.idx === selected ? null : p.idx)}
+            onClick={onSelectPrecept.bind(
+              null,
+              p.idx === selected ? null : p.idx,
+            )}
           >
             {p.idx + 1}
           </button>
         ))}
-        <button onClick={setRandom}>🎲</button>
+        <button onClick={setRandom}>
+          <Dice5 width={27} height={27} />
+        </button>
       </nav>
       <button className={`toggle-open-btn`} onClick={() => setIsOpen(!isOpen)}>
-        {isOpen ? <i class="lni lni-cross-circle" /> : <i class="lni lni-menu" />}
+        {isOpen ? (
+          <Xmark height={40} width={40} />
+        ) : (
+          <Bars height={40} width={40} />
+        )}
       </button>
     </>
   );

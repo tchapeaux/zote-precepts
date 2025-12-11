@@ -1,27 +1,28 @@
 :root {
-  --font-family:
-    Perpetua, -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu",
-    "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+    --font-family:
+        Perpetua, -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto",
+        "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans",
+        "Helvetica Neue", sans-serif;
 }
 
 body {
-  margin: 0;
-  font-family: var(--font-family);
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+    margin: 0;
+    font-family: var(--font-family);
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
 
-  font-size: 20px;
+    font-size: 20px;
 
-  background-color: #333;
-  color: #eee;
+    background-color: #222225;
+    color: #eee;
 }
 
 button {
-  font-family: var(--font-family);
-  text-decoration: none;
+    font-family: var(--font-family);
+    text-decoration: none;
 
-  &:hover,
-  &:focus-visible {
-    text-decoration: underline;
-  }
+    &:hover,
+    &:focus-visible {
+        text-decoration: underline;
+    }
 }
