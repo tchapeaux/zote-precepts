@@ -3,6 +3,7 @@ import "./App.css";
 import { useState } from "react";
 import PreceptSelector from "./PreceptSelector";
 import OnePrecept from "./OnePrecept";
+import MusicButton from "./MusicButton";
 
 export default function App() {
   const [selected, setSelected] = useState(null);
@@ -34,9 +35,10 @@ export default function App() {
       </div>
 
       <PreceptSelector selected={selected} setSelected={setSelected} />
+      <MusicButton />
 
       <footer>
-        <p>Text and music are the property of Team Cherry</p>
+        <p>Fan page not affiliated with Team Cherry</p>
       </footer>
     </div>
   );

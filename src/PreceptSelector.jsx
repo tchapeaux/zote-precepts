@@ -1,7 +1,7 @@
 import { useState } from "react";
 import classNames from "classnames";
 
-import { Bars, Xmark, Dice5 } from "@gravity-ui/icons";
+import { Bars, Xmark, Dice5, House } from "@gravity-ui/icons";
 
 import PRECEPTS from "../assets/precepts.json";
 
@@ -46,6 +46,17 @@ export default function PreceptSelector({ selected, setSelected }) {
           <Bars height={40} width={40} />
         )}
       </button>
+      {selected !== null && (
+        <button
+          className={`home-btn`}
+          onClick={() => {
+            setSelected(null);
+            setIsOpen(false);
+          }}
+        >
+          <House height={40} width={40} />
+        </button>
+      )}
     </>
   );
 }
