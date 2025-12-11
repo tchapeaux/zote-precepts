@@ -25,10 +25,7 @@ export default function PreceptSelector({ selected, setSelected }) {
           <button
             className={p.idx === selected ? "selected" : undefined}
             key={p.idx}
-            onClick={onSelectPrecept.bind(
-              null,
-              p.idx === selected ? null : p.idx
-            )}
+            onClick={onSelectPrecept.bind(null, p.idx === selected ? null : p.idx)}
           >
             {p.idx + 1}
           </button>
@@ -36,11 +33,7 @@ export default function PreceptSelector({ selected, setSelected }) {
         <button onClick={setRandom}>🎲</button>
       </nav>
       <button className={`toggle-open-btn`} onClick={() => setIsOpen(!isOpen)}>
-        {isOpen ? (
-          <i class="lni lni-cross-circle" />
-        ) : (
-          <i class="lni lni-menu" />
-        )}
+        {isOpen ? <i class="lni lni-cross-circle" /> : <i class="lni lni-menu" />}
       </button>
     </>
   );

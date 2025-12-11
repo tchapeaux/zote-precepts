@@ -18,11 +18,7 @@ export default function App() {
         </blockquote>
       </header>
 
-      <OnePrecept
-        key={selected}
-        selected={selected}
-        setSelected={setSelected}
-      />
+      <OnePrecept key={selected} selected={selected} setSelected={setSelected} />
 
       <PreceptSelector selected={selected} setSelected={setSelected} />
 

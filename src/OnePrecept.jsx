@@ -17,18 +17,12 @@ export default function OnePrecept({ selected, setSelected }) {
 
           <div className="prev-next-section">
             {selected > 0 ? (
-              <button
-                className="prev-btn"
-                onClick={() => setSelected(selected - 1)}
-              >
+              <button className="prev-btn" onClick={() => setSelected(selected - 1)}>
                 <i class="lni lni-arrow-left" />
               </button>
             ) : null}
             {selected < PRECEPTS.length - 1 ? (
-              <button
-                className="next-btn"
-                onClick={() => setSelected(selected + 1)}
-              >
+              <button className="next-btn" onClick={() => setSelected(selected + 1)}>
                 <i class="lni lni-arrow-right" />
               </button>
             ) : null}
