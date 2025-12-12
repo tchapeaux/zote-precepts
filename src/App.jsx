@@ -1,6 +1,6 @@
 import "./App.css";
 
-import { useState, useEffect, useRef } from "react";
+import { useState, useEffect } from "react";
 import DecorativeSpecks from "./DecorativeSpecks";
 import PreceptSelector from "./PreceptSelector";
 import OnePrecept from "./OnePrecept";
